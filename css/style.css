@@ -1,0 +1,98 @@
+p{text-align: left;margin-bottom: 25px;margin-top: 25px;font-family: 'Gotham',Helvetica,Arial;color: #fff;}
+body,html{background: #19191E;}
+.btn-block {
+  display: block;
+  width: 100%;
+  border-radius: 0!important;
+  background: #0030FF;
+  border: 0;
+}
+h1 {
+  text-align: left;
+  font-family: 'Gotham',Helvetica,Arial;
+  letter-spacing: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 40px;
+  position: relative;
+  display: inline;
+}
+h1::after {
+  content: '';
+  position: absolute;
+  right:-20px;
+  bottom: 0;
+  width: 40px;
+  height: 4px;
+  background: #0030FF;
+}
+
+input {
+  background: transparent!important;
+  border-radius: 0!important;
+  border: 0!important;
+  border-bottom: 1px solid #fff!important;
+  color: #fff!important;
+}
+
+.submit-btn {
+    font-size: 12px!important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.form-control:focus {
+  border-color: #0030FF!important;
+  outline: 0;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+}
+.container{position: relative;height: 100vh;}
+.form-box{
+  position: absolute;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+}
+.form-box label{color:#fff!important;text-transform: uppercase;font-size: 11px;}
+
+.tip{opacity: 0;transition: all .3s;margin-left: 5px; color: lightblue;}
+.show-tip:hover + .tip{opacity: 1;}
+.form-box i {
+    margin-left: 5px;
+}
+i:hover {
+    color: blue;
+}
+
+
+.tip {
+    height: 23px;
+    opacity: 0;
+    display: inline-block;
+    margin-top: 0;
+    transition: all .3s;
+    margin-left: 19px;
+    color: black;
+    background: blue;
+    padding-top: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 11px;
+    line-height: 0;
+    position: relative;
+    top: -2px;
+    font-weight: bold;
+}
+
+.tip:before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    transform: rotate(45deg);
+    left: -8px;
+    top: 3px;
+    background: blue;
+}
