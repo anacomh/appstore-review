@@ -1,2 +1,2 @@
 # appstore-review
-Download reviews from appstore
+Download Reviews from Apps in the Apple Store to CSV.
